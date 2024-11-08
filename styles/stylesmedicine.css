@@ -1,0 +1,16 @@
+body {
+    background-color: #efefef;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    border-radius: 5px;
+    border: 2px solid #838383;
+    padding: 5px;
+}
+
+.container {
+    border-radius: 10px;
+    border: 2px solid #838383;
+    padding: 10px;
+}

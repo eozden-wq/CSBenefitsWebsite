@@ -55,6 +55,10 @@ main {
     padding-right: 10vw;
 }
 
+.education > h2:hover, .medicine > h2:hover, .finance > h2:hover {
+    text-decoration: underline;
+}
+
 /* Title Code Animation ------------------ */
 
 .title-code::before {

@@ -6,18 +6,20 @@
     --nav-black: #212529;
 }
 
-body { 
-    margin: 0; padding: 0; 
-    font-family: monospace, Arial; 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, Arial;
     background: var(--modern-background);
     color: var(--text-grey);
     overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
-    background: transparent; width: 12.5px;
+    background: transparent;
+    width: 12.5px;
 }
-  
+
 body::-webkit-scrollbar-thumb {
     background: #9b9d9e;
     border-radius: 20px;
@@ -28,15 +30,16 @@ body::-webkit-scrollbar-thumb {
 header {
     width: 100vw;
     display: grid;
-    grid-template-areas: "title" "subtitle";
+    grid-template-areas: "title""subtitle";
     grid-template-columns: 60vw;
-    padding-left: 20vw; padding-right: 20vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     padding-top: 5vw;
     text-align: center;
     margin-bottom: 2.5vh;
 }
 
-header > h1 {
+header>h1 {
     font-size: 5em;
     margin-bottom: 5vh;
 }
@@ -68,21 +71,61 @@ main {
 }
 
 @keyframes title_code_before {
-    0% { content: ""; }
-    10% { content: " "; }
-    15% { content: " C"; }
-    20% { content: " Co"; }
-    25% { content: " Cod"; }
-    45% { content: " Code."; }
-    100% { content: " Code."; }
+    0% {
+        content: "";
+    }
+
+    10% {
+        content: " ";
+    }
+
+    15% {
+        content: " C";
+    }
+
+    20% {
+        content: " Co";
+    }
+
+    25% {
+        content: " Cod";
+    }
+
+    45% {
+        content: " Code.";
+    }
+
+    100% {
+        content: " Code.";
+    }
 }
 
 @keyframes title_code_after {
-    0% { content: " "; }
-    10% { content: "C"; }
-    15% { content: "o"; }
-    20% { content: "d"; }
-    25% { content: "e"; }
-    45% { content: ""; }
-    100% { content: ""; }
+    0% {
+        content: " ";
+    }
+
+    10% {
+        content: "C";
+    }
+
+    15% {
+        content: "o";
+    }
+
+    20% {
+        content: "d";
+    }
+
+    25% {
+        content: "e";
+    }
+
+    45% {
+        content: "";
+    }
+
+    100% {
+        content: "";
+    }
 }

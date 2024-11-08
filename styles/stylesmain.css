@@ -6,6 +6,25 @@
     --nav-black: #212529;
 }
 
+body { 
+    margin: 0; padding: 0; 
+    font-family: monospace, Arial; 
+    background: var(--modern-background);
+    color: var(--text-grey);
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    background: transparent; width: 12.5px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #9b9d9e;
+    border-radius: 20px;
+    position: relative;
+    top: -5vh;
+}
+
 header {
     width: 100vw;
     display: grid;
